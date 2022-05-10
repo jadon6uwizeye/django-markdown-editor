@@ -1,0 +1,7 @@
+FROM PYTHON:3
+
+ENV ENVIRONMENTVARIABLE value
+
+WORKDIR /app
+
+ADD . /app
